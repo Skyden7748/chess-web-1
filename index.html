@@ -3,107 +3,505 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylex.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
 </head>
 
 <body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="logo45.png" alt=""></a>
+
+        <i class='bx bx-menu-alt-right' id="menu-icon" onclick="showMenu()"></i>
+
+
+
+        <nav class="navbar" id="barnav">
+
+            <a href="index3.html">ABOUT US</a>
+
+            <a href="courses-main.html">COURSES</a>
+
+
+            <a href="index4.html">TOURNAMENTS</a>
+            <a href="index7.html">CAREER</a>
+            <a href="index6.html">CONTACT US</a>
+
+            <a id="login" href="login.html" style="color: #000000;">Log in</a>
+            <i class='bx bx-x' id="close-icon" onclick="hideMenu()"></i>
+        </nav>
+    </header>
     <div id="main">
 
         <div id="back">
-            <img src="mtr1.webp" alt="">
-            <img src="mtr2.webp" alt="">
+
+            <img class="load" src="mtr2.webp" draggable="false">
 
         </div>
         <div id="top">
             <div id="workingarea">
-                <div id="nav">
-                    <div id="nleft"> <img src="logo45.png" alt="">
-                        <a href="">about us</a>
-                        <a href="">courses</a>
-                    </div>
-                    <div id="nright">
-                        <a class="log" href="">login</a>
-                        <a href="">tournaments</a>
-                        <a href="">shop</a>
-                        <a href="">contact us</a>
 
-                    </div>
-
-
-                </div>
                 <div id="hero">
-                    <div id="heroleft">
-                        <div class="elem">
+
+
+                    <div class="elem">
+                        <div class="hu">
                             <h1>CHESSENSEI</h1>
-                            <h1 class="hh">Checkmate your limits: <br> Chess for every mind</h2>
-                                <h1>LETS Go!</h1>
-
                         </div>
-                        <button>START NOW</button>
+                        <p id="headpara">Move, Learn, Conquer.</p>
 
+                        <div class="hv"><a id="boton">Start now</a></div>
 
                     </div>
-                    <div id="heroright">
-                        <p id="para">Click any where to see how this child felt after learning chess with us</p>
-                    </div>
+
+
+
+
+
+
                 </div>
             </div>
         </div>
     </div>
-    <div id="inter"><h1>TRUSTED BY-</h1></div>
+    <div id="inter">
+        <h1>TRUSTED BY-</h1>
+    </div>
     <div class="logos">
-        
+
         <div class="logoslide">
-            <img class = "ga" src="./l1.png" alt="">
+            <img class="ga" src="./l1.png" alt="">
             <img src="./l2.png" alt="">
-            <img class="brigade"src="./l3.png" alt="">
+            <img class="brigade" src="./l3.png" alt="">
             <img class="kk" src="./l4.png" alt="">
-            <img class="bw"src="./l5.png" alt="">
-            <img class="pg"src="./l6.png" alt="">
-            <img class="sp"src="./l7.png" alt="">
-            <img class=""src="./l8.png" alt="">
-            
+            <img class="bw" src="./l5.png" alt="">
+            <img class="pg" src="./l6.png" alt="">
+            <img class="sp" src="./l7.png" alt="">
+            <img class="" src="./l8.png" alt="">
+
         </div>
-        
+
         <div class="logoslide">
-            <img class = "ga" src="./l1.png" alt="">
+            <img class="ga" src="./l1.png" alt="">
             <img src="./l2.png" alt="">
-            <img class="brigade"src="./l3.png" alt="">
+            <img class="brigade" src="./l3.png" alt="">
             <img class="kk" src="./l4.png" alt="">
-            <img class="bw"src="./l5.png" alt="">
-            <img class="pg"src="./l6.png" alt="">
-            <img class="sp"src="./l7.png" alt="">
-            <img class=""src="./l8.png" alt="">
-            
+            <img class="bw" src="./l5.png" alt="">
+            <img class="pg" src="./l6.png" alt="">
+            <img class="sp" src="./l7.png" alt="">
+            <img class="" src="./l8.png" alt="">
+
         </div>
     </div>
-<section id="bg">
-    <div id="about-us"><h1>why us? <br> well, with us kids become champions, not just on the chess board, but in life.
-    </h1></div>
-    <section class="hidden">
-        <h3>About us</h3>
-        <h1>CHESSENSEI chess for kids</h1>
+    <section id="bg">
+
+
+
+        <section id="hm" class="hidden">
+            <div class="hm2">
+                <h1 class="whyus">why us? <br> well, with us kids
+                    become champions, not just
+                    on the chess board, but in life.
+                </h1>
+            </div>
+            <h1 class="about"><span style="color: #fecc09;">CHESSENSEI</span> chess for kids</h1>
+            <p class="about-para"> Our team of skilled chess trainers is dedicated to helping players of all levels
+                reach their goals.
+
+                With a wealth of experience and a proven track record of success, we provide a supportive and motivating
+                learning environment. No matter your current skill level, we have a program that will help you improve
+                and succeed in chess. </p>
+            <div class="btns">
+                <a href="">chat on Whatsapp</a>
+                <a href="">contact us</a>
+            </div>
+
+
+
+        </section>
+
+
     </section>
-    <section class="hidden">
-        <h1>how are you</h1>
-    </section>
-</section>
+    <div class=" advantages">
+        <h1>the Advantages</h1>
+        <p>of learning with us</p>
+
+    </div>
+    <div class="card-container">
+        <div class="card c1">
+            <h1>Parents teacher feedback</h1>
+            <p>Our program is geared to provide parents with relevant feedback and a comprehensive report on their
+                children's development. </p>
+        </div>
+        <div class="card c2">
+            <h1>Experienced chess masters</h1>
+            <p>Students will work with elite chess experts to enhance not only their cognitive abilities, but also their
+                leadership and collaboration capabilities</p>
+        </div>
+        <div class="card c3">
+            <h1>Online and offline classes</h1>
+            <p>Chess mastery for kids, blending online and offline classes. Strategy meets screen and board, shaping
+                young minds for success on and off the chessboard.</p>
+        </div>
+        <div class="card c4">
+            <h1>Activity based learning</h1>
+            <p>
+                Our programs enrich your child's education by supporting physical and mental development through a
+                variety of fun activities and resources designed to cultivate personal and decision-making ability.
+            </p>
+        </div>
+        <div class="card c5">
+            <h1>Tournaments and workshop</h1>
+            <p>Through the delivery of workshops, and tournaments, we strive to provide an environment to become
+                competitive and a leader in itself. Winning the competition and competing against other individuals
+                increase confidence. </p>
+        </div>
+
+    </div>
+    <div class="courses" id="courses">
+        <div class="courses-left-part">
+            <img src="m1.png" alt="">
+
+        </div>
+        <div class="courses-right-part">
+            <h1>Our Courses</h1>
+            <div class="coursesp">
+                <p class="coursesp1">Our chess courses for kids follow a structured pathway from basics to advanced
+                    strategies.</p>
+                <p>Interactive lessons and engaging activities make learning chess enjoyable for children.</p>
+                <p>Designed with young learners in mind, our courses seamlessly blend fun and skill development. Through
+                    engaging lessons, we not only teach chess strategies but also instill critical thinking,
+                    concentration, and resilience.</p>
+                <div class="courses-a"><a href="online.html">online</a>
+
+                    <a href="offline.html" style="background-color: #ffec81;">offline</a>
+
+                    <a href="school.html" style="background-color: #fff7c9;">school</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="s-superclass">
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <div class="testimonials">
+            <p>Testimonials</p>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="reviewer4.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Rajesh</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    "Competitive tournaments build camaraderie; honing skills and friendships."
+                                </p>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="reviewer2.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Shilpi</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    " boosts critical thinking, fostering smarter decision making skills "
+                                </p>
 
 
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="b2_upscayl_4x_realesrgan-x4plus.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Praveen</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    " The place is vibrant and gives out a very positive vibe. "
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="bk2_upscayl_4x_realesrgan-x4plus.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Mohan</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    "Chessensei's class is an absolute gem for chess enthusiasts!""
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="unnamed_upscayl_4x_remacri.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">manish</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    " Very good coaches and excellent environment for learning chess for kids "
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="revi5.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Abhisekh</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    "enhances memory retention and cognitive development in players"
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="revi6.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Aswarth</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    "promotes strategic planning honing foresight and analytical abililties"
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="pngimg.com - letter_L_PNG106.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Lalit</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    " It is a real pleasure to be able to learn chess from here."
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card1">
+                        <div class="image-content">
+                            <div class="overlay">
+                                <div class="card-image">
+                                    <img src="https __meta-q.cdn.bubble.io_f1512936020165x278911292087286720_A.png"
+                                        alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Amrita</h2>
+                                <h3>student's parent</h3>
+                                <p class="description">
+                                    " top-notch Chess Academy offering structured courses with interactive lessons and
+                                    adaptive learning. "
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </div>
+    <div id="move" class="gal">
+        <h1 id="igal">gallery</h1>
+        <h2 id="ical">of our little champs</h2>
+        <div class="gallerywrap">
+            <img src="btn2.png" id="backbtn">
+            <div class="gallery">
+
+
+
+
+
+            </div>
+
+            <img src="btn1.png" id="forbtn">
+        </div>
+    </div>
+    <div class="gal-head">
+        <h1>Gallery</h1>
+        <h2>of our champs</h2>
+        <p>Mastering the Game of Kings: Enthusiastic students absorbing the intricacies of chess.</p>
+    </div>
+    <div class="img-grid">
+        <div class="elk card-wide " style="background-image: url(/gg1.webp); background-size: cover;"
+            onmouseover="this.style.backgroundSize='110%'" onmouseout="this.style.backgroundSize='100%'"></div>
+        <div class="elk card-wide card-tall" style="background-image: url(/gg10.webp);background-size: cover;"
+            onmouseover="this.style.backgroundSize='120%'" onmouseout="this.style.backgroundSize='100%'"></div>
+        <div class="elk card-wide " style="background-image: url(/gg3.webp);background-size: cover;"
+            onmouseover="this.style.backgroundSize='115%'" onmouseout="this.style.backgroundSize='100%'"></div>
+        <div class="elk card-wide card-tall" style="background-image: url(/gg9.webp);background-size: cover;"
+            onmouseover="this.style.backgroundSize='110%'" onmouseout="this.style.backgroundSize='100%'"></div>
+        <div class="elk card-wide card-tall"
+            style="background-image: url(/gg5.webp);background-size: cover; background-repeat: no-repeat;"
+            onmouseover="this.style.backgroundSize='100%'" onmouseout="this.style.backgroundSize='150%'"></div>
+        <div class="elk card-wide " style="background-image: url(/gg6.webp);background-size: cover;"
+            onmouseover="this.style.backgroundSize='105%'" onmouseout="this.style.backgroundSize='100%'"></div>
+
+
+    </div>
+    <div class="rec">
+        <div class="rleft">
+            <h1>We are <span style="color: rgba(255, 222, 114, 0.9);">recognised by-</span></h1>
+        </div>
+        <div class="rright">
+            <a href="https://www.missionstartupkarnataka.org/?en"><img class="ob" src="startup_karnataka2.png"
+                    alt=""></a>
+            <a href="https://www.startupindia.gov.in/"><img class="oc" src="statup_india.png" alt=""></a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fleft">
+            <img src="logo45.png" alt="">
+            <p id="ch90"><strong><span style="color: #fffeb9ce;">Address:</span></strong>
+                ThinkQuestLab Private Limited
+                4th Floor,Balaraj's Arcade,Whitefield,<br> Whitefield Main Rd,
+                opposite to BRIGADE COSMOPOLIS, Bengaluru, Karnataka 560066 </p>
+            <div class="links"><a class="l5" href=""><i class='bx bxl-facebook'></i></i></a>
+
+                <a class="l6" href=""><i class='bx bxl-youtube'></i></a>
+                <a class="l7" href=""><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+        <div class="fright">
+            <h2>HELP LINKS</h2>
+
+            <ul>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Privacy and Policy</a></li>
+                <li><a href="">Refund and Cancellation</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+
+
+
+
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <script src="path/to/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script src="scroll.js"></script>
     <script src="script.js"></script>
     <script defer src="v.js"></script>
 </body>

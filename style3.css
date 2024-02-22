@@ -1,0 +1,61 @@
+.abtus {
+    background-image: linear-gradient(rgba(21, 21, 21, 0.9), rgba(0, 16, 14, 1)), url(master02.jpg);
+}
+
+.tour {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.tour h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: white;
+
+}
+
+@media(max-width:700px) {
+    .abtus {
+        background-image: linear-gradient(rgba(21, 21, 21, 0.9), rgba(0, 16, 14, 1)), url(master01.jpg);
+    }
+
+}
+
+.t1 {
+    height: 10rem;
+    width: 100%;
+    border: 1px solid rgb(255, 238, 0);
+    margin-top: 3rem;
+    border-radius: 24px;
+}
+
+.about-tournament {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.tournament-winner h1 {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+
+
+}
+
+.tournament-winner h2 {
+    color: azure;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tournament-details p {
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}

@@ -1,0 +1,86 @@
+.us {
+    position: relative;
+
+    height: 10rem;
+    background-image: none;
+    margin-top: 4rem;
+    text-align: center;
+
+
+
+
+}
+
+.us h1 {
+    position: absolute;
+    font-size: 1.8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: wheat;
+    top: 70%;
+
+
+}
+
+.contact-us {
+
+    background-image: linear-gradient(rgba(0, 16, 14, 1), rgba(0, 16, 14, 0.8)), url(bg15.webp);
+    background-size: 150%;
+
+}
+
+
+.gi {
+    margin-top: 8rem;
+}
+
+.cl4 {
+    margin-top: 2rem;
+}
+
+
+
+.cl4 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.cl4 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0.4rem;
+}
+
+.cl4.cn p {
+    margin-top: 1.4rem;
+    font-weight: 700;
+    color: gold;
+}
+
+.cleft {
+    margin-bottom: 7rem;
+}
+
+.cright {
+
+    position: relative;
+    top: -15rem;
+}
+
+@media(max-width:700px) {
+    .contact-us {
+
+        background-image: linear-gradient(rgba(0, 16, 14, 1), rgba(0, 16, 14, 0.8)), url(kkl.webp);
+        background-size: 400%;
+
+    }
+
+    .us {
+        width: 100%;
+
+    }
+
+    .cright {
+        top: -5rem;
+    }
+}

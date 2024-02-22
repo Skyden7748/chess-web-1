@@ -1,0 +1,219 @@
+.t71 {
+
+    width: 50%;
+    height: 7vmax;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1vmax;
+
+}
+
+.abtus {
+    background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(0, 16, 14, 1)), url(t6.jpg);
+}
+
+.t71 p {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1vw;
+}
+
+.t71 img {
+    width: 2rem;
+
+}
+
+.t8 {
+    padding-top: 5rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin: 0 auto;
+    gap: 5rem;
+    justify-content: space-around;
+
+
+}
+
+.t8 .l8right h1 {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.t8 .l8right p {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+    padding-top: 1.2rem;
+
+}
+
+.t8 img {
+    opacity: 0.2;
+}
+
+.t9 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.gp {
+    padding-top: 7rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.parent-div {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* Style for each child div */
+.child-div {
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    max-width: 300px;
+    height: 370px;
+}
+
+.child-div a {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 24, 6);
+    font-weight: 700;
+    padding: 0.7rem 2rem;
+    border-radius: 0.3em;
+    background-color: gold;
+    text-decoration: none;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+
+
+}
+
+.child-div h2 {
+    padding-top: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(245, 255, 230);
+    font-weight: 700;
+
+
+}
+
+.child-div p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(245, 255, 230);
+    font-weight: 700;
+    padding-top: 0.2rem;
+}
+
+.child-div.online h2 {
+    font-size: 1.3em;
+
+}
+
+
+/* Style for images in each child div */
+.child-div img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gp p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.gp h1 {
+    margin-top: 0.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+
+.gp {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+@media(max-width:700px) {
+    .parent-div {
+        display: block;
+    }
+
+    .child-div {
+        margin-top: 1.3rem;
+    }
+
+    .t8 {
+        margin-top: 4rem;
+        display: block;
+        width: 80%;
+        margin-top: 3.9rem;
+        padding-top: 0;
+
+    }
+
+    .t8 img {
+        width: 80vw;
+
+    }
+
+    .gp {
+        margin-bottom: 4rem;
+    }
+
+    .gp h1 {
+        margin-top: 0.2rem;
+
+    }
+
+    .gp p {
+
+        margin-top: 0rem;
+    }
+
+    .gp p {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .t7 {}
+
+    .t71 {
+
+        width: 70%;
+        height: 7vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2vmax;
+        margin-top: 1rem;
+    }
+
+
+    .t71 p {
+        color: wheat;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2.5vw;
+    }
+
+    .ju {
+        margin-top: 1rem;
+
+    }
+}

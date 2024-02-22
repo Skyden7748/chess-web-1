@@ -1,0 +1,186 @@
+.abtus {
+    height: 50vh;
+    width: 100%;
+
+
+    background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(0, 16, 14, 1)), url(g7.webp);
+    background-size: cover;
+
+
+}
+
+.school-c1 {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.school-c1 p {
+    color: rgb(255, 248, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 2em;
+    margin-bottom: 2rem;
+
+
+}
+
+.school-c1 .mg1 {
+    font-size: 1.5em;
+    color: rgb(195, 190, 142);
+}
+
+.school-c1 h2 {
+    color: rgb(255, 248, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 2em;
+    margin-bottom: 2rem;
+
+
+}
+
+.school-c1 h2::before {
+    content: "";
+    /* Empty content */
+    position: absolute;
+    /* Position the pseudo-element absolute to its containing element */
+    top: 25rem;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+
+    height: 60rem;
+    background: linear-gradient(rgb(0, 20, 11), rgba(31, 115, 105, 0.4)), url(/sc-pro-2.webp) center/cover no-repeat;
+    background-size: 85%;
+    /* Set the image as the background */
+    z-index: -1;
+    /* Place the pseudo-element behind the actual content */
+    opacity: 0.4;
+}
+
+.footer {}
+
+.image-holder img {
+    height: 22rem;
+
+
+}
+
+.image-holder {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.attri {
+    width: 80%;
+
+    margin: 0 auto;
+
+    margin-bottom: 0.6rem;
+    margin-top: 3rem;
+}
+
+.attri h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-weight: 200;
+
+}
+
+.last-part {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.last-part p {
+    color: rgba(255, 254, 241, 0.508);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.b {
+    padding: 1rem 3rem;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgb(248, 255, 186);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgba(138, 57, 0, 0.75);
+    border-radius: 1rem;
+    margin-bottom: 3rem
+}
+
+@media(min-width:1100px) {
+    body {
+        background-color: rgb(0, 19, 11);
+    }
+
+    .school-c1 {
+
+        width: 30%;
+    }
+
+    .attri {
+        width: 50%;
+        text-align: center;
+        margin-top: 11rem;
+        font-size: 2em;
+        margin-top: 12rem;
+
+    }
+
+    .aatri p {
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .image-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .image-holder img {
+        border-radius: 20px;
+        height: 37rem;
+    }
+
+    .school-c1 h2::before {
+        content: "";
+        /* Empty content */
+        position: absolute;
+        /* Position the pseudo-element absolute to its containing element */
+        top: 1rem;
+        right: 0;
+        bottom: 0;
+        left: 0%;
+
+        height: 60rem;
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(/sc-pro-2.webp) center/cover no-repeat;
+        background-size: 85%;
+        /* Set the image as the background */
+        z-index: -1;
+        /* Place the pseudo-element behind the actual content */
+        opacity: 0.7;
+    }
+
+    .last-part {
+        width: 35%;
+        margin-top: 2rem;
+    }
+
+    .last-part p {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="style7.css">
+    <link rel="stylesheet" href="style18.css">
+
+
+
+</head>
+
+<body>
+    <div id="main">
+        <header class="header">
+            <a href="index.html" class="logo"><img src="logo45.png" alt=""></a>
+
+            <i class='bx bx-menu-alt-right' id="menu-icon" onclick="showMenu()"></i>
+
+
+
+            <nav class="navbar" id="barnav">
+                <a href="login.html" style="color: #fff019;">Log in</a>
+                <a href="index3.html">ABOUT US</a>
+                <a href="courses-main.html">COURSES</a>
+                <a href="index4.html">TOURNAMENTS</a>
+                <a href="index6.html">CONTACT US</a>
+                <a href="index7.html">CAREER</a>
+                <i class='bx bx-x' id="close-icon" onclick="hideMenu()"></i>
+            </nav>
+        </header>
+
+        <div class="course-dets">
+            <div class="progress-container">
+                <!-- Image container -->
+                <div class="image-container">
+                    <img id="progressImage" src="theboy1.png" alt="Image">
+                </div>
+
+                <!-- Progress bar -->
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-level" id="progressLevel"></div>
+                </div>
+            </div>
+            <div class="level">
+                <p>28 hours</p>
+                <p>46 hours</p>
+                <p>46+ hours</p>
+                <p>customized study</p>
+            </div>
+            <div class="number-of-classes" style="display: none;">
+                <h1 id="amount-of-classes">28 Classes</h1>
+
+            </div>
+
+        </div>
+        <div class="course-dets4">
+
+            <a href="">Join</a>
+
+        </div>
+        <div class="course-dets2">
+            <div class="course-det-head">
+                <p class="head3">Course details<i class='bx bxs-chevrons-down'></i></p>
+
+            </div>
+            <div class="price">
+                <div class="price-tag-1">
+                    <p>course fees</p>
+                    <h1 id="money1">4000 $</h1>
+                </div>
+                <div class="price-tag">
+                    <p>per <br> session</p>
+                    <h1 id="money2">500 $</h1>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="course-dets-3">
+
+            <div class="course-wrapper">
+                <div class="giver"><img src="save-time.png" alt="">
+                    <h2 id="p1"> 28 hours of Activity based training</h2>
+                </div>
+                <div class="giver"><img src="calendar.png" alt="">
+                    <h2 id="p2"> 4 hours of assessment and review</h2>
+                </div>
+                <div class="giver"><img src="assignment.png" alt="">
+                    <h2 id="p3"> 16 homework</h2>
+                </div>
+                <div class="giver"><img src="video-tutorials.png" alt="">
+                    <h2 id="p4"> 4 Basic online tournaments</h2>
+                </div>
+                <div class="giver"><img src="report.png" alt="">
+                    <h2 id="p5"> 4 feedback reports</h2>
+                </div>
+                <div class="giver"><img src="online-class.png" alt="">
+                    <h2 id="p6"> online class</h2>
+                </div>
+                <div class="giver"><img src="classroom.png" id="img1" alt="" style="display: none;">
+                    <h2 id="p7"></h2>
+                </div>
+                <div class="giver"><img src="analysis.png" id="img2" alt="" style="display: none;">
+                    <h2 id="p8"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="fleft">
+            <h1 id="ch89">CHESSENSEI</h1>
+            <p id="ch90"><strong><span style="color: #fffeb9ce;">Address:</span></strong>
+                ThinkQuestLab Private Limited
+                4th Floor,Balaraj's Arcade,Whitefield,<br> Whitefield Main Rd,
+                opposite to BRIGADE COSMOPOLIS, Bengaluru, Karnataka 560066 </p>
+            <div class="links"><a class="l5" href=""><i class='bx bxl-facebook'></i></i></a>
+
+                <a class="l6" href=""><i class='bx bxl-youtube'></i></a>
+                <a class="l7" href=""><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+        <div class="fright">
+            <h2>HELP LINKS</h2>
+
+            <ul>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Privacy and Policy</a></li>
+                <li><a href="">Refund and Cancellation</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var vit = document.getElementById("barnav")
+        function showMenu() {
+            vit.style.top = "0";
+
+        }
+        function hideMenu() {
+            vit.style.top = "-350px";
+
+        }
+
+
+    </script>
+    <script>
+        // Get necessary elements
+        const progressBar = document.getElementById('progressBar');
+        const progressLevel = document.getElementById('progressLevel');
+        const progressImage = document.getElementById('progressImage');
+        const classAmount = document.getElementById('amount-of-classes');
+        const price1 = document.getElementById('money1');
+        const price2 = document.getElementById('money2');
+        const p1 = document.getElementById('p1');
+        const p2 = document.getElementById('p2');
+        const p3 = document.getElementById('p3');
+        const p4 = document.getElementById('p4');
+        const p5 = document.getElementById('p5');
+        const p6 = document.getElementById('p6');
+        const p7 = document.getElementById('p7');
+        const p8 = document.getElementById('p8');
+        const p9 = document.getElementById('img1');
+        const p10 = document.getElementById('img2');
+
+
+
+
+        // Initial progress level (0-100)
+        let progress = 0;
+
+        // Function to update progress and image
+        function updateProgress(newProgress) {
+            progress = newProgress;
+
+            progressLevel.style.width = progress + '%';
+
+
+            // Change image based on progress level
+
+            if (progress > 22 && progress < 56) {
+                progressImage.src = 'theboy2.png';
+                classAmount.textContent = '42 Hours';
+                price1.textContent = '6000 $';
+                price2.textContent = '600 $';
+                p1.textContent = '42 hours of Activity based training';
+                p2.textContent = '6 hours of assessment and review';
+                p3.textContent = '24 homework';
+                p4.textContent = '6 Beginner online tournaments';
+                p5.textContent = '200 puzzles';
+                p6.textContent = '6 feedback reports';
+                p7.textContent = 'Online class';
+                p10.style.display = 'none';
+                p9.style.display = 'block';
+
+            }
+            if (progress > 56 && progress < 85) {
+                progressImage.src = 'theboy4.png';
+                classAmount.textContent = '42 Hours';
+                price1.textContent = '7000 $';
+                price2.textContent = '700 $';
+                p1.textContent = '42 hours of Activity based training';
+                p2.textContent = '6 hours of assessment and review';
+                p3.textContent = '24 homework';
+                p4.textContent = '12 Beginner online tournaments';
+                p5.textContent = '400 puzzles';
+                p6.textContent = '6 feedback reports';
+                p7.textContent = 'Online class'
+                p8.textContent = ''
+                p10.style.display = 'none';
+                p9.style.display = 'block';
+            } else if (progress > 85) {
+                progressImage.src = 'theboy3.png';
+                classAmount.textContent = 'Customized training programs';
+                price1.textContent = '8000 $';
+                price2.textContent = '800 $';
+                p1.textContent = 'Customized training programs';
+                p2.textContent = '6+ hours of assessment and review';
+                p3.textContent = '24 homework';
+                p4.textContent = '12 advanced online tournaments';
+                p5.textContent = '1000+ advanced puzzles';
+                p6.textContent = '8 feedback reports';
+                p7.textContent = 'Online class'
+                p8.textContent = '20+ Game analysis'
+                p10.style.display = 'block';
+
+            } else if (progress >= 0 && progress <= 30) {
+                progressImage.src = 'theboy1.jpg';
+                classAmount.textContent = '28 Hours';
+            } else {
+                progressImage.src = 'theboy1.jpg';
+            }
+
+            if (progress < 23) {
+                progressImage.src = 'theboy1.png';
+                price1.textContent = '5000 $';
+                price2.textContent = '500 $';
+                p1.textContent = '28 hours of Activity based training';
+                p2.textContent = '4 hours of assessment and review';
+                p3.textContent = '16 homework';
+                p4.textContent = '4 Basic online tournaments';
+                p5.textContent = '4 feedback reports';
+                p6.textContent = 'Online class';
+                p10.style.display = 'none';
+                p7.textContent = ''
+                p9.style.display = 'none';
+                p8.textContent = ''
+
+            } if (progress > 22 && progress < 56) {
+                progressImage.src = 'theboy2.png';
+                classAmount.textContent = '42 Hours';
+                price1.textContent = '6000 $';
+                price2.textContent = '600 $';
+                p10.style.display = 'none';
+                p8.textContent = ''
+            }
+        }
+
+        // Increase progress on click
+        progressBar.addEventListener('click', function (event) {
+            const mouseX = event.clientX - progressBar.getBoundingClientRect().left;
+            const newProgress = (mouseX / progressBar.offsetWidth) * 140;
+            updateProgress(newProgress);
+        });
+
+        // Decrease progress on right-click (contextmenu)
+        progressBar.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+            const mouseX = event.clientX - progressBar.getBoundingClientRect().left;
+            const newProgress = (mouseX / progressBar.offsetWidth) * 100;
+            updateProgress(newProgress);
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lp.js"></script>
+</body>
+
+
+</html>

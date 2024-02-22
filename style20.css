@@ -1,0 +1,28 @@
+.abtus {
+    background-image: linear-gradient(rgba(34, 34, 34, 0), rgba(0, 24, 16, 0.6)), url(summercamp2.png);
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(0, 24, 16);
+}
+
+.abtus {}
+
+.border {
+    height: 1rem;
+    background-color: yellow;
+}
+
+.abtus h1 {
+    margin-top: 5rem;
+    line-height: 0.9;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.filler {
+    height: 100vh;
+}

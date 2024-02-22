@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <div id="main">
+        <header class="header">
+            <a href="index.html" class="logo"><img src="logo45.png" alt=""></a>
+
+            <i class='bx bx-menu-alt-right' id="menu-icon" onclick="showMenu()"></i>
+
+
+
+            <nav class="navbar" id="barnav">
+
+                <a href="index3.html">ABOUT US</a>
+    
+                <a href="courses-main.html">COURSES</a>
+    
+    
+                <a href="index4.html">TOURNAMENTS</a>
+                <a href="index7.html">CAREER</a>
+                <a href="index6.html">CONTACT US</a>
+    
+                <a id="login" href="login.html" style="color: #000000;">Log in</a>
+                <i class='bx bx-x' id="close-icon" onclick="hideMenu()"></i>
+            </nav>
+        </header>
+
+
+
+        <div class="gi">
+            <div class="abtus">
+
+                <h1 class="go">Contact us</h1>
+
+
+            </div>
+        </div>
+
+        <section class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.610918686338!2d77.7480761!3d12.9620771!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13cbe69905db%3A0x1dca93b6d6394482!2sChessensei%20%7C%20Innovative%20Chess%20Training%20Institute!5e0!3m2!1sen!2sin!4v1707215911584!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+        <section class="contact-us">
+            <div class="wrp">
+
+                <div class="cleft">
+                    <div class="c-item item1">
+                        <i class='bx bx-home-alt'></i>
+                        <span>
+                            <p>ThinkQuestLab Private Limited
+                                4th Floor, Balaraj's Arcade, <br>Whitefield, Whitefield Main Rd,
+                                opposite to BRIGADE COSMOPOLIS </p>
+                            <p class="p2">Bengaluru, Karnataka 560066</p>
+                        </span>
+                    </div>
+                    <div class="c-item item2">
+                        <i class='bx bx-phone'></i>
+                        <span>
+                            <p>+91 79016 29941</p>
+                            <p>+91 86689 81208</p>
+                        </span>
+                    </div>
+                    <div class="c-item item3">
+                        <i class='bx bx-envelope'></i>
+                        <span>
+                            <p>info@chessensei.com </p>
+                            <p>support@chessensei.com</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="cright">
+                    <div class="form">
+                        <form action="">
+                            <input type="text" placeholder="Enter your name" required>
+                            <input type="email" placeholder="Enter email address" required>
+                            <input type="text" placeholder="Phone number" required>
+                            <textarea rows="11" placeholder="comment" required></textarea>
+                            <button type="submit" class="b">send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="footer">
+            <div class="fleft">
+                <img src="logo45.png" alt="">
+                <p id="ch90"><strong><span style="color: #fffeb9ce;">Address:</span></strong>
+                    ThinkQuestLab Private Limited
+                    4th Floor,Balaraj's Arcade,Whitefield,<br> Whitefield Main Rd,
+                    opposite to BRIGADE COSMOPOLIS, Bengaluru, Karnataka 560066 </p>
+                <div class="links"><a class="l5" href=""><i class='bx bxl-facebook'></i></i></a>
+
+                    <a class="l6" href=""><i class='bx bxl-youtube'></i></a>
+                    <a class="l7" href=""><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+
+            <div class="fright">
+                <h2>HELP LINKS</h2>
+
+                <ul>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy and Policy</a></li>
+                    <li><a href="">Refund and Cancellation</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var vit = document.getElementById("barnav")
+        function showMenu() {
+            vit.style.top = "0";
+
+        }
+        function hideMenu() {
+            vit.style.top = "-350px";
+
+        }
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lp.js"></script>
+</body>
+
+
+</html>
